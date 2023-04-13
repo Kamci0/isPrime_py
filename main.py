@@ -2,7 +2,7 @@ import math
 
 
 def isprime(num):
-    if num <= 0:
+    if num <= 1:
         return False
     else:
         for i in range(2, int(math.sqrt(num)) + 1):
@@ -12,4 +12,4 @@ def isprime(num):
                 return True
 
 
-print(isprime(8))
+print(isprime(47))
